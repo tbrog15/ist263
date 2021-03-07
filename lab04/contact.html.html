@@ -32,18 +32,28 @@
         </p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.786941630108!2d-76.1331245487179!3d43.04591409940164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f309e9a76e31%3A0xe11f76f0625022d4!2s110%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614267082295!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </body>
-    <p>Please select your field of work.</p>
+    <form action="mailto:tbrogers@syr.edu" method="POST">
 
-    <input type="radio" name="career" id="careerstem" value="stem">
-    <label for="careerstem">STEM</label>
-    <input type="radio" name="career" id="careerfinance" value="finance">
-    <label for="careerfinance">Finance</label>
-    <input type="radio" name="career" id="careersocialwork" value="socialwork">
-    <label for="careersocialwork">Social work</label>
-    <input type="radio" name="career" id="careerentrepreneurship" value="entrepreneurship">
-    <label for="careerentrepreneurship">Entrepreneurship</label><br>
-    <input type="radio" name="career" id="careerother" value="other">
-    <label for="careerother">Other</label>
+        <label for="email">Please enter your email address</label>
+            <input type="text" name="email" id="email"><br>
+        
+        <p>Please select your field of work.</p>
 
+        <input type="radio" name="career" id="careerstem" value="stem">
+        <label for="careerstem">STEM</label>
+        <input type="radio" name="career" id="careerfinance" value="finance">
+        <label for="careerfinance">Finance</label>
+        <input type="radio" name="career" id="careersocialwork" value="socialwork">
+        <label for="careersocialwork">Social work</label>
+        <input type="radio" name="career" id="careerentrepreneurship" value="entrepreneurship">
+        <label for="careerentrepreneurship">Entrepreneurship</label><br>
+        <input type="radio" name="career" id="careerother" value="other">
+        <label for="careerother">Other</label>
+
+        <label for="comments">Enter phone number that is best to be reached at here.</label><br>
+            <textarea name="comments" id="comments" cols="100" rows="10"> (123)-456-7890.</textarea><br>
+
+        <input type="submit" value="Send Application">
+    </form>
 
 </html>
