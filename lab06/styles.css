@@ -1,0 +1,14 @@
+body {sans-serif: helvetica;}
+p, ul, td, th {
+    color:crimson
+}
+.evenrow {
+    color:gray
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: .5em;
+}
+
