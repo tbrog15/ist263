@@ -8,11 +8,11 @@ h1 {
 /* colon separates the selector from its state*/
 
 a:link {
-    color: #00ff00;
+    color: #000dff;
 }
 
 a:visited {
-    color: #000dff;
+    color: #00ff00;
 }
 
 a:hover {
@@ -24,8 +24,8 @@ a:hover {
 /* above uses a class selector with the psuedo state*/
 
 body {
-    background-image: url(images/linkdin.image);
-    background-size: 100%;
+    background-image: url(../images/linkedin.image.svg);
+    background-size: 50%;
     background-color: #c9c9ab;
 }
 /* background color for entire page*/
