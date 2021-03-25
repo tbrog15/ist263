@@ -24,7 +24,7 @@ a:hover {
 /* above uses a class selector with the psuedo state*/
 
 body {
-    background-image: url(../images/linkedin.image.svg);
+    background-image: url(../images/linkedin-image.svg);
     background-size: 50%;
     background-color: #c9c9ab;
 }
