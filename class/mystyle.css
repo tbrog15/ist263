@@ -1,0 +1,24 @@
+h1 {
+    color: #ff0000;
+    /* hex color requires the pound sign*/
+    /*six digits starting with red, then green, then blue*/
+}
+
+/* these three selectors are psuedo selectors*/
+/* colon separates the selector from its state*/
+
+a:link {
+    color: #00ff00;
+}
+
+a:visited {
+    color: #00ff00;
+}
+
+a:hover {
+    color: #8000ff;
+    background-color: #00eeff;
+}
+
+.lookdifferent:hover {color: #999999;}
+/* above uses a class selector with the psuedo state*/
