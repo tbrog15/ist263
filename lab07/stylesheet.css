@@ -6,7 +6,7 @@ a:visited {
     color: #185380;
 }
 
-a:hover {
+nav a:hover {
     color: #cf3d29;
     background-color: #00324f;
 }
