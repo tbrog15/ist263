@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <style>
+            .address {padding: 20px; background-color: #f9cd2c; border-radius: 1em; margin-bottom: 10px;}
+            .info {float: left; margin-right: 10px;}
+            .links {float: right;}
+            .clear {clear: both;}
+
+            .part3 {display: flex;}
+            .part3 {padding: 20px; background-color: #f9cd2c; border-radius: 1em;}
+            .map, .input {margin: 10px}
+            .map {flex: 1; order: 2;}
+            .input {flex: 1; order: 1;}
+        </style>
+    </head>
+
+    <body>
+        <nav><a href="index.html">Home |</a><a href="contact.html">Contact | </a><a href="skills.html">Skills</a></nav>
+        <h1>Contact</h1>
+        <div class="address">
+            <article class="info">
+                <p>
+                    Tyler Rogers
+                </p>
+                <p>
+                    Syracuse University
+                </p>
+                <p>
+                    110 Comstock Avenue
+                </p>
+                <p>
+                    Syracuse, NY 13210
+                </p>
+            </article>
+        <div class="clear"></div>
+            <article class="links">
+                <p>
+                    <a href="https://www.linkedin.com/in/tyler-rogers-96a44417a/_blank">My LinkedIn Profile</a>
+                </p>
+                <p>
+                    <a href="tbrogers@syr.edu">tbrogers@syr.edu</a>
+                </p>
+            </article>
+        <div class="clear"></div>
+        </div>
+    </body>
+    
+    <div class="part3">
+        <article class="input">
+            <form action="mailto:tbrogers@syr.edu" method="POST">
+                <label for="email">Please enter your email address</label>
+                    <input type="text" name="email" id="email"><br>
+                    
+                <p>Please select your field of work.</p>
+
+                <input type="radio" name="career" id="careerstem" value="stem">
+                <label for="careerstem">STEM</label>
+                <input type="radio" name="career" id="careerfinance" value="finance">
+                <label for="careerfinance">Finance</label>
+                <input type="radio" name="career" id="careersocialwork" value="socialwork">
+                <label for="careersocialwork">Social work</label>
+                <input type="radio" name="career" id="careerentrepreneurship" value="entrepreneurship">
+                <label for="careerentrepreneurship">Entrepreneurship</label><br>
+                <input type="radio" name="career" id="careerother" value="other">
+                <label for="careerother">Other</label><br>
+
+                <label for="comments">Enter phone number that is best to be reached at here.</label><br>
+                    <textarea name="comments" id="comments" cols="100" rows="10"> (000)-000-0000.</textarea><br>
+
+                <input type="submit" value="Send Application">
+            </form>
+        </article>    
+        <article class="map"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.786941630108!2d-76.1331245487179!3d43.04591409940164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f309e9a76e31%3A0xe11f76f0625022d4!2s110%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614267082295!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </article>
+    </div>
+
+</html>
