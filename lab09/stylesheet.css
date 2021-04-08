@@ -40,3 +40,7 @@ img {
 .part3 {
     flex-wrap: wrap;
 }
+
+@media screen {
+    min-width: 600px;
+}
