@@ -41,6 +41,6 @@ img {
     flex-wrap: wrap;
 }
 
-@media screen {
-    min-width: 600px;
+span {
+    display:none;
 }
