@@ -7,13 +7,13 @@ a:visited {
 }
 
 nav a:hover {
-    color: #fc5741;
+    color: #ffffff;
     background-color: #00324f;
 }
 
 body {
     color: #00324f;
-    background-color: #fc5741;
+    background-color: #ffffff;
 }
 
 p {background-color: #f9cd2c;}
