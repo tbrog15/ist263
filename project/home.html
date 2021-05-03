@@ -5,23 +5,14 @@
     <head>
         <meta charset="utf-8">
         <title>Class Buddy</title>
-        <style>
-            h1 {
-                float:left
-            }
-            nav {
-                float:right
-            }
-            .post {
-                float:center
-            }
-        </style>
+        <link rel="stylesheet" href="classbuddy.css">
     </head>
 
     <body>
-        <p>Class Buddy</p>
-        <label for="search"></label>
-                    <textarea name="search" id="search" width="20%" rows="1">Search for classes</textarea>
+            <h1>Class Buddy</h1>
+        <form action="mailto:tbrogers@syr.edu" method="POST">
+            <label for="search">Search for classes</label>
+                <input type="text" name="search" id="search">
         <nav>
             <a href="home.html">Home|</a>
             <a href="myposts.html">My Posts|</a>
@@ -29,7 +20,8 @@
         </nav>
         <header><img src="../images/classbuddybanner.jfif" alt="" class="banner" width= "100%"></header>
         <label for="posting">Post to forum (include hashtag)</label><br>
-                    <textarea name="post" id="post" width="100%" rows="5"></textarea>
+                    <input type="text" id="post" width="100%" rows="5"></textarea>
+        <input type="submit" value="Send Application">
     </body>
 
     <footer>
