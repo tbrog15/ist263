@@ -1,0 +1,33 @@
+
+nav a:hover {
+    color: aliceblue;
+    background-color: #020750;
+}
+
+body {
+    color: #020750;
+    background-color: #e0280f;
+}
+
+p {font-size: 20px;
+    color: aliceblue;
+    background-color: #e0280f;}   
+
+nav {float: right;
+    color: #020750;
+    padding: 10px}
+
+nav {margin-bottom: 30px}
+
+
+h1 {float: left; 
+    margin-right: 10px; 
+    font-size: 30px; 
+    color: #020750;}
+
+.search {float:left;}
+
+.clear {clear:both}
+
+.footer {font-size: 10px;}
+
