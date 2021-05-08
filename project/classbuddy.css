@@ -4,12 +4,13 @@ nav a:hover {
     background-color: #020750;
 }
 
-body {
+body {font-family: 'Raleway', sans-serif;
     color: #020750;
     background-color: #e0280f;
 }
 
-p {font-size: 20px;
+p {font-family: 'Raleway', sans-serif;
+    font-size: 20px;
     color: aliceblue;
     background-color: #e0280f;}   
 
@@ -20,7 +21,8 @@ nav {float: right;
 nav {margin-bottom: 30px}
 
 
-h1 {float: left; 
+h1 {font-family: 'Raleway', sans-serif;
+    float: left; 
     margin-right: 10px; 
     font-size: 30px; 
     color: #020750;}
@@ -30,4 +32,5 @@ h1 {float: left;
 .clear {clear:both}
 
 .footer {font-size: 10px;}
+
 
