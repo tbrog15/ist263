@@ -7,44 +7,57 @@
         <title>Class Buddy</title>
         <link rel="stylesheet" href="classbuddy.css">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
         <style>
-            h1 {
-                float:left
-            }
-            nav {
-                float:right
-            }
-            .post {
-                float:left
-            }
+            .top {display: flex;}
+            .top {padding: 20px;}
+            .logo, .searchbar, .nav {margin: 10px;}
+            .logo {flex: 1; order: 1;}
+            .searchbar {flex: 1; order: 2;}
+            .nav {flex: 1; order: 3;}
+            .posts {margin-bottom: 100px;}
         </style>
     </head>
 
     <body>
-        <h1>Class Buddy</h1>
-        <form action="mailto:tbrogers@syr.edu" method="POST">
-            <label for="search">Search for classes</label>
-                <input type="text" name="search" id="search">
-        <nav>
-            <a href="home.html">Home|</a>
-            <a href="myposts.html">My Posts|</a>
-            <a href="myaccount.html">My Account</a>
-        </nav>
-        <header><img src="../images/classbuddybanner.jfif" alt="" class="banner" width= "100%"></header>
+        <div class="top">
+            <div class="logo">
+                <h1>Class Buddy</h1>
+            </div>
+            <div class="searchbar">
+                <form action="mailto:tbrogers@syr.edu" method="POST">
+                    <label for="search">Search for classes</label>
+                        <input type="text" name="search" id="search">
+            </div>
+            <div class="nav">
+                <nav>
+                    <a href="home.html">Home|</a>
+                    <a href="myposts.html">My Posts|</a>
+                    <a href="myaccount.html">My Account</a>
+                </nav>
+            </div>
+        </div>
+        <header><img src="../images/classbuddybanner.jpg" alt="" class="banner" width= "100%"></header>
         <textbox>
-            <p>
-                !!!!!!!!This is where the users posts will appear. I am still working on trying to figure out how to do this.!!!!!!!!!!!!
-            </p>
+            <div class="posts">
+                <h2> My Posts</h2>
+                <p>- Has anyone finished the problem set due tomorrow? I am stuck on question 3 and need help #MAT102</p><br>
+
+                <p>- I will be studying in the library tonight if anyone would like a group study session #IST263</p><br>
+
+                <p>- Is there a quiz this week? #PSY152</p><br>
+
+                <p>- What day is the final? #IST102</p><br>
+
+                <p>- I have a completed study guide for the exam this week #WRT105</p><br>
+            </div>
         </textbox>
+        </div>
     </body>
 
     <footer>
-        <div class="footer">
-            <p>Welcome to classbuddy.com, a virtual meeting space for college students to connect with their peers to discuss and assist with classwork and course information. This forum allows you to be able to communicate with your classmates, whom otherwise you may not know, and ease the stress of difficult college courses by allowing students to both offer help and ask for help. By entering your school’s name in your account, you will be connected to every other student that has an account. Even further, selecting your classes will then put you in chat rooms that include only the other students in said class. You can share homework, ask about upcoming due dates, and more.</p><br>
-            <p>While classbuddy.com is meant to help make students’ lives easier, it is not meant for cheating or any violation of the academic integrity policies at your school. If a school is to request any information about the chat rooms and/or what you have shared with your fellow students through the site, we are obligated to adhere to those requests.</p><br>
-            <p>As a college student, knowing people in your classes often eased the stress of the course because it would allow us to be able to compare our work to our peers and prepare for exams, projects, etc. With classbuddy.com, we are here to make sure you know someone in every class, so you don’t have to go in alone. Community learning will make not only your grades better, but your lives easier.</p><br>
             <p>For any questions, comments, and concerns, you can email us at classbuddy@gmail.com or call us at 123-456-7890.</p>
-        </div>
     </footer>
 
 </html>
